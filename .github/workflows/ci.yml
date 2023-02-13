@@ -27,3 +27,7 @@ jobs:
           sed -i "s|.:/app|/tmp:/tmp|g" docker-compose.yml
 
           ./run ci:test
+    
+      - uses: joshmfrankel/simplecov-check-action@main
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
