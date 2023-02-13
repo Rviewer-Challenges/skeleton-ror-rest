@@ -32,4 +32,5 @@ jobs:
         #uses: joshmfrankel/simplecov-check-action@main
         uses: aki77/simplecov-report-action@v1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          #github_token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
