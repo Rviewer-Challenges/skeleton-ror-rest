@@ -28,9 +28,8 @@ jobs:
 
           ./run ci:test
 
-      - name: "SimpleCov"
-        uses: joshmfrankel/simplecov-check-action@main
-        #uses: aki77/simplecov-report-action@v1
+      - name: Create Coverage Artifact
+        uses: actions/upload-artifact@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          #token: ${{ secrets.GITHUB_TOKEN }}
+          name: code-coverage
+          path: coverage/
