@@ -1,5 +1,5 @@
 FROM ruby:3.2.1-slim-bullseye AS assets
-LABEL maintainer="Nick Janetakis <nick.janetakis@gmail.com>"
+LABEL maintainer="Anatolii Borysov <borisano@gmail.com>"
 
 WORKDIR /app
 
@@ -43,7 +43,7 @@ CMD ["bash"]
 ###############################################################################
 
 FROM ruby:3.2.1-slim-bullseye AS app
-LABEL maintainer="Nick Janetakis <nick.janetakis@gmail.com>"
+LABEL maintainer="Anatolii Borysov <borisano@gmail.com>"
 
 WORKDIR /app
 
