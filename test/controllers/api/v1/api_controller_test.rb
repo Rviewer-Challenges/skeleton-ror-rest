@@ -1,7 +1,8 @@
 require "test_helper"
 
-class Api::V1::ApiControllerTest < ActionDispatch::IntegrationTest
+class Api::V1::ServersControllerTest < ActionDispatch::IntegrationTest
   test "the truth" do
-    assert true
+    get api_v1_servers_url
+    assert_response :success
   end
 end
