@@ -42,8 +42,7 @@ jobs:
 
       - name: Fix SimpleCov paths output for Sonarqube
         working-directory: ./coverage
-        run: sed -i 's/\/myapp//g' coverage.json
-
+        run: sed -i 's/myapp/github\/workspace/g' coverage.json
 
       - name: SonarQube Scan
         uses: sonarsource/sonarqube-scan-action@master
