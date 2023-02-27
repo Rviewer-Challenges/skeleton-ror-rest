@@ -1,6 +1,6 @@
 <img align="left"  width="150" height="150" src=".github/rviewer_logo--dark.png" />
 
-## Rviewer skeleton: Java, Spring & PostgreSQL
+## Rviewer skeleton: Ruby, Ruby on Rails, PostgreSQL
 
 [![Twitter](https://img.shields.io/badge/rviewer__-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/Rviewer_/)
 
